@@ -64,7 +64,15 @@ const TransactionEditForm = ({ transaction, onEditTransaction, onCancelEdit }) =
             <option value="">Selecciona una categoría</option>
             <option value="comida">Comida</option>
             <option value="transporte">Transporte</option>
-            {/* Otras opciones de categoría */}
+            <option value="entretenimiento">Entretenimiento</option>
+            <option value="compras">Compras</option>
+            <option value="salud">Salud</option>
+            <option value="educacion">Educación</option>
+            <option value="viajes">Viajes</option>
+            <option value="hogar">Hogar</option>
+            <option value="tecnologia">Tecnología</option>
+            <option value="deportes">Deportes</option>
+            {/* Agregar más opciones de categoría */}
           </select>
         </div>
         <div className="flex flex-col">
